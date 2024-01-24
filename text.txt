@@ -45,6 +45,9 @@ ex:
     npm install react-router-app
 //#17 building and hosting
     npm run build
+//#18 Purchasing domain and hosting
+
+//#19 
 
 Component-Based Architecture:
 React follows a component-based architecture, where UIs are built using reusable and independent components. This promotes modularity, reusability, and easier maintenance of code
@@ -77,5 +80,7 @@ React is developed and maintained by Facebook, which means it is well-supported 
 
 Wide Adoption and Industry Support:
 React is widely adopted in the industry, making it a valuable skill for developers. Many large companies and organizations use React in their web development projects, leading to a high demand for React developers.
+
+
 
 In summary, React.js is popular among developers for its component-based architecture, virtual DOM, declarative syntax, and other features that contribute to efficient and maintainable web development.

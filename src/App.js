@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "./Components/Navbar";
 import Textform from "./Components/Textform";
 import Alert from "./Components/Alert";
-// import About from "./Components/About";
+ //import About from "./Components/About";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -24,12 +24,12 @@ function App() {
       setMode("dark");
       document.body.style.backgroundColor = "gray";
       showAlert("Dark mode has been enabled", "success");
-      document.title = "MyApp-Dark Mode";
+      // document.title = "MyApp-Dark Mode";
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
       showAlert("light mode has been enabled", "success");
-      document.title = "MyApp-Light Mode";
+      //document.title = "MyApp-Light Mode";
     }
   };
   return (
@@ -44,11 +44,14 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           {/* <Routes>
-            <Route exact path="/about" element={ <About />}>
+            <Route exact path="/about" element={ }>
             </Route> */}
+            
             {/* <Route path="/" element={ }> */}
+            {/* <About mode={mode} /> */}
             <Textform
-                headings="Enter the text to analyze below"
+
+                headings="Try MyApp Word counter ,Character counter Remove extra spaces"
                 mode={mode}
               />
               
