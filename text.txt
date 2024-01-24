@@ -1,0 +1,81 @@
+named export and default export
+when we do default export then we can use any name but when we are not using default then we have to write the same name as it is in that file
+ex:
+    let a="Aakash"
+    let b="Priyanka"
+    let c="Rahul"
+    let d="Harray"
+    export default d
+    export {a}
+    export {b}
+    export {c}
+
+    import asd from './filename.mjs'
+    console.log(asd)
+    op:Harray
+
+    import {a,b,c} from './filename.mjs'
+
+//# 1:Introduction
+// #2:
+
+
+//#5 Project 1:setup+adding bootstrap to react
+//#6 understanding Props(properties) and PropTypes in react
+//#7 understanding State and Handling Events in react
+    Hooks:they let you use State and other react features without writing a class
+    how to handle Events
+    how to set state
+
+    primary=blue
+    danger=red
+    light=white
+    dark=black
+    success=green
+
+//#8 Adding more logic
+// #9 Exercise
+// #10 Creating enable dark mode
+// #11 Solutions
+//#12 Improving dark mode
+//#13
+//#14 Ex2: Adding custom color themes to my app
+//#15
+//#16 React ruter setup + usage
+    npm install react-router-app
+//#17 building and hosting
+    npm run build
+
+Component-Based Architecture:
+React follows a component-based architecture, where UIs are built using reusable and independent components. This promotes modularity, reusability, and easier maintenance of code
+Component-based architecture is a design approach in software development where the system is broken down into individual, self-contained, and reusable components. Each component represents a modular, independent unit with well-defined functionality, and these components can be combined to build larger, more complex systems. This architectural style is widely used in various types of applications, including web development, desktop software, and mobile apps.
+
+
+Virtual DOM for Improved Performance:
+React uses a virtual DOM to efficiently update and render UI components. Instead of directly manipulating the actual DOM, React updates a virtual representation of it in memory and then selectively updates only the parts of the DOM that have changed. This approach leads to better performance and a smoother user experience.
+
+Declarative Syntax with JSX:
+React uses JSX (JavaScript XML), a syntax extension that allows developers to write UI components in a declarative manner. This makes the code more readable and intuitive, as it closely resembles HTML. JSX is then transpiled to JavaScript, enhancing the development experience.
+
+One-Way Data Binding:
+React enforces a unidirectional data flow, where data is passed from parent components to child components. This helps to maintain a predictable state and makes it easier to understand how data changes propagate through the application.
+
+Reusable Components:
+React encourages the creation of reusable components, which can be composed to build complex UIs. This modularity makes it easier to manage and scale applications, as components can be reused across different parts of the application.
+
+State Management:
+React allows components to have local state, and changes to the state trigger a re-render of the component. For managing global state in larger applications, developers can use state management libraries like Redux or the useContext API.
+
+React Hooks:
+Introduced in React 16.8, hooks provide a way to use state and lifecycle features in functional components. This addition has simplified the development of components by eliminating the need for class components in many cases.
+
+Community and Ecosystem:
+React has a large and active community of developers, resulting in a robust ecosystem of libraries, tools, and resources. The community support ensures that developers can easily find solutions to problems, stay updated on best practices, and benefit from a wealth of third-party packages.
+
+Backed by Facebook:
+React is developed and maintained by Facebook, which means it is well-supported and continuously improved. The backing of a major tech company instills confidence in its stability and longevity.
+
+Wide Adoption and Industry Support:
+React is widely adopted in the industry, making it a valuable skill for developers. Many large companies and organizations use React in their web development projects, leading to a high demand for React developers.
+
+In summary, React.js is popular among developers for its component-based architecture, virtual DOM, declarative syntax, and other features that contribute to efficient and maintainable web development.
