@@ -84,3 +84,10 @@ React is widely adopted in the industry, making it a valuable skill for develope
 
 
 In summary, React.js is popular among developers for its component-based architecture, virtual DOM, declarative syntax, and other features that contribute to efficient and maintainable web development.
+
+
+git init 
+git status
+git add .
+git commit -m "First"
+git push
